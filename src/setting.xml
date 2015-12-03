@@ -1,0 +1,6 @@
+<setting>
+    <presenter>
+        <name>New</name>
+        <resource>new</resource>
+    </presenter>
+</setting>
