@@ -62,7 +62,7 @@ class NewPresenter extends BasePresenterM{
         $form->addText('link', $this->translator->translate('new.link'));
         $form->addUpload('image', $this->translator->translate('new.image'));
         $form->addTextArea('perex', $this->translator->translate('new.perex'));
-        $form->addSpawEditor('text', $this->translator->translate('new.text'));
+        $form->addCkEditor('text', $this->translator->translate('new.text'));
         
         $form->addSubmit('send', $this->translator->translate('admin.form.edit'));
         
@@ -124,7 +124,7 @@ class NewPresenter extends BasePresenterM{
         $form->addText('link', $this->translator->translate('new.link'));
         $form->addUpload('image', $this->translator->translate('new.image'));
         $form->addTextArea('perex', $this->translator->translate('new.perex'));
-        $form->addSpawEditor('text', $this->translator->translate('new.text'));
+        $form->addCkEditor('text', $this->translator->translate('new.text'));
         
         $form->addSubmit('send', $this->translator->translate('admin.form.create'));
         
